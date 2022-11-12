@@ -4,7 +4,7 @@ inv_input: .asciiz "Invalid input. Bye"
 multi_msg: .asciiz "Multiplying 2 integers"
 fact_msg: .asciiz "Factorializing(?) an integer"
 .text
-.spac
+
 main:
 	li $v0, 4
 	la $a0, choice_msg
