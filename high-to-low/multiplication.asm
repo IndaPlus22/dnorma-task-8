@@ -74,7 +74,7 @@ multiply_func:
 		bgtz $t2, loop1
 		
 	la $v0, ($t0)
-	jr $ra
+	jr  $ra
 
 factorial_func:
 	la $t3, ($a0)
